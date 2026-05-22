@@ -31,4 +31,4 @@ A responsive Moodle-inspired course dashboard created using HTML, CSS, and JavaS
 ├── index.html
 ├── style.css
 ├── script.js
-└── screenshot.png
+└── Main_page.png
