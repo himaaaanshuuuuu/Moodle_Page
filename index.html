@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moodle Course Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">📘 Moodle Dashboard</div>
+    <div class="student-name">South Asian University</div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#announcements">Announcements</a></li>
+      <li><a href="#assignments">Assignments</a></li>
+      <li><a href="#resources">Resources</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- Course Info -->
+    <section class="card">
+      <h2>Course Information</h2>
+      <div class="course-info">
+        <p><strong>Course:</strong> Fundamentals of Web Development</p>
+        <p><strong>Instructor:</strong> Dr. Sharma</p>
+        <p><strong>Semester:</strong> Semester 2 - 2026</p>
+      </div>
+    </section>
+
+    <!-- Announcements -->
+    <section class="card" id="announcements">
+      <div class="section-title">
+        <h2>Announcements</h2>
+        <button onclick="toggleAnnouncements()">Show / Hide</button>
+      </div>
+
+      <div id="announcement-box">
+        <div class="announcement">
+          <h3>📢 Assignment Submission</h3>
+          <p>Submit Assignment 7 before 28 May 2026.</p>
+        </div>
+
+        <div class="announcement">
+          <h3>📢 Quiz Update</h3>
+          <p>Quiz 2 will be conducted on Monday at 10:00 AM.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Assignments -->
+    <section class="card" id="assignments">
+      <h2>Assignments</h2>
+
+      <div class="assignment-list">
+        <div class="assignment-item">
+          <span>HTML Basics Project</span>
+          <span class="due">Due: 20 May</span>
+        </div>
+
+        <div class="assignment-item">
+          <span>CSS Styling Task</span>
+          <span class="due">Due: 24 May</span>
+        </div>
+
+        <div class="assignment-item">
+          <span>JavaScript Interactive Page</span>
+          <span class="due">Due: 30 May</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources -->
+    <section class="card" id="resources">
+      <h2>Resources</h2>
+
+      <ul class="resources-list">
+        <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+        <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+      </ul>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Fundamentals of Web Development | Contact: fwd@sau.int</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
